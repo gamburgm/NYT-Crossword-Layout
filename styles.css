@@ -1,0 +1,28 @@
+.pz-row.pz-game-title-bar {
+  display: none;
+}
+
+/* .xwd__franklin { */
+/*   font-size: 20px; */
+/* } */
+
+#puzzle {
+  max-height: max-content;
+  max-width: max-content;
+  font-size: 20px;
+}
+
+section.xwd__layout_clueBarAndBoard {
+  /* display: flex; */
+  width: 50%;
+}
+
+section.xwd__layout--cluelists {
+  /* display: flex; */
+  height: 40%;
+}
+
+div.xwd__clue-list--wrapper {
+  width: 100%;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Improved NYT Crossword Layout",
+  "version": "0.1.0",
+  "description": "the best plugin ever",
+
+  "content_scripts": [{
+    "matches": ["https://*.nytimes.com/crosswords/game/*"],
+    "css": ["styles.css"]
+  }]
+}
